@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+		<title>Mona - restaurant</title>
+		<meta name="author" content="Lara Medic"/>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+	</head>
+
+    <body>
+      <div class="container">
+        <header>
+            <div class="top-menu">
+                <a href="index.html">Home</a>
+                <a href="recipes.html">Recipes</a>
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About us</a>
+                <a href="reservations.html" id="right" class="active">Reservations</a>
+              </div>
+        </header>
+
+        <section>
+            <h2>Reservations</h2>
+            <form action="#" method="post">
+                <div class="form_part">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Ivan Horvat" required>
+                    <br><br>
+                  <label for="phone">Phone</label>
+                  <input type="tel" id="phone" name="phone" placeholder="092-348-1111" required>
+                <hr>
+                  <label for="visitor">Number of visitors</label>
+                  <input type="number" id="visitor" name="visitor" placeholder="2" min="1" required>
+                    <br><br>
+                  <label for="date">Date</label>
+                  <input type="date" id="date" name="date" required>
+                    <br><br>
+                  <label for="time">Time</label>
+                  <input type="time" id="time" name="time" required>
+                <hr>
+                  <label for="message">Additional info</label>
+                  <textarea id="message" name="message" placeholder="Tell us anything else that might be important."></textarea>
+                </div>
+
+                <button type="submit">Book the table</button>
+              </form>
+        </section>
+        
+
+        <footer class="footer">
+          <div class="social-wrapper">
+            <ul>
+              <li>
+                <a href="https://twitter.com/home" target="_blank">
+                  <img src="images/twitter.png" alt="Twitter" class="twitter"></a>
+              </li>
+  
+              <li>
+                <a href="https://www.linkedin.com/in/lara-medi%C4%87-160395144/" target="_blank">
+                  <img src="images/linkedin.png" alt="Linkedin" class="linkedin"></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/lara.medicoffical/" target="_blank">
+                  <img src="images/facebook.png" alt="Facebook" class="facebook"></a>
+              </li>
+            </ul>
+          </div>
+      <p>Mona restaurant 2021 Copyright &copy; Lara Medic</p>
+  </footer>
+    
+    </body>
+</html>
