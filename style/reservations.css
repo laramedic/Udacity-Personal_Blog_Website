@@ -1,0 +1,39 @@
+/*reservations*/ 
+#right{
+    float: right;
+  }
+  .form_part {
+  margin: 20px 0;
+  }
+  
+  label {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+  font-size: 1em;
+  width: 100%;
+  padding: 8px;
+  }
+  
+  textarea {
+  height: 200px;
+  }
+  
+  button {
+  height: 40px;
+  background: #333;
+  border: none;
+  cursor: pointer;
+  color:#ddd;
+  }
+  
+  button:hover {
+  background-color: #ddd;
+  color: black;
+  }

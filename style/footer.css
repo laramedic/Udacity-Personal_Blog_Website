@@ -1,0 +1,31 @@
+/*footer*/
+
+.footer-home {
+    background-color: #333;
+      text-align: center;
+      margin: 5px 0;
+      padding: 5px 0;
+      color:#ddd;
+  }
+  .footer {
+    background-color: #333;
+      text-align: center;
+      margin: 5px 0;
+      padding: 5px 0;
+      color:#ddd;
+  }
+  
+  .social-wrapper ul li {
+      display: inline;
+      margin: 0 5px;
+  }
+  
+  .twitter,
+  .facebook,
+  .linkedin{
+      margin-top: .625em;
+      width: 40px;
+      height: 40px;
+    border-radius: 25px;
+  }
+  
