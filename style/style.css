@@ -96,9 +96,6 @@ body {
 
 /*Media queries - screens*/
 @media(max-width:320px){
-  body{
-    background-color: blue;
-  }
   .footer-home {
     height: 120px;
   }
@@ -106,9 +103,6 @@ body {
 
 /*tablet*/
 @media(min-width:600px) and (max-width:900px){
-  body{
-    background-color:red;
-  }
   .footer-home {
     height: 120px;
   }
@@ -118,7 +112,6 @@ body {
 @media(max-width:901px){
   body{
     width: 70%;
-    background-color:yellow;
   }
   .footer-home {
     height: 120px;
