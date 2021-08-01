@@ -47,6 +47,7 @@ body {
 	margin-bottom: 20px;
 	margin-left: 980px;
 	text-align: left;
+	display: flex;
 }
 
 
@@ -102,22 +103,29 @@ body {
 
 @media (max-width: 320px) {
 	body {
-		background-color: blue;
+		width: 50%;
 	}
 	.footer-home {
 		height: 120px;
+		display: grid;
+	}
+	.footer {
+		height: 80px;
+		display: grid;
 	}
 }
 
-
-/*tablet*/
-
 @media (min-width: 600px) and (max-width: 900px) {
 	body {
-		background-color: red;
+		width: 70%;
 	}
 	.footer-home {
 		height: 120px;
+		display: grid;
+	}
+	.footer {
+		height: 120px;
+		display: grid;
 	}
 }
 
@@ -127,9 +135,13 @@ body {
 @media (max-width: 901px) {
 	body {
 		width: 70%;
-		background-color: yellow;
 	}
 	.footer-home {
 		height: 120px;
+		display: grid;
+	}
+	.footer {
+		height: 120px;
+		display: grid;
 	}
 }
