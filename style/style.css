@@ -101,47 +101,142 @@ body {
 
 /*Media queries - screens*/
 
+
+/* iPhone 5/SE, Galaxy Fold*/
+
 @media (max-width: 320px) {
+	html {
+		width: 250%;
+	}
+	header {
+		width: 100%;
+	}
+	.container {
+		width: 60%;
+	}
 	body {
-		width: 50%;
+		width: 70%;
+		padding-left: 2px;
 	}
 	.footer-home {
-		height: 120px;
-		display: grid;
+		height: 200px;
 	}
 	.footer {
-		height: 80px;
+		height: 200px;
 		display: grid;
 	}
+	.blogpost_post {
+		width: 100%;
+		padding: 5px;
+	}
+	.blogpost_post-image {
+		width: 100%;
+		height: 150px;
+		object-fit: cover;
+	}
+	#author {
+		background-color: #908e8e;
+		text-align: center;
+		list-style-type: none;
+		height: 240px;
+	}
+	#img-author {
+		width: 50px;
+		height: 50px;
+		border-radius: 50px;
+	}
 }
+
+
+/*iPad*/
 
 @media (min-width: 600px) and (max-width: 900px) {
-	body {
-		width: 70%;
+	html {
+		width: 100%;
 	}
-	.footer-home {
-		height: 120px;
-		display: grid;
+	header {
+		width: 250%;
+	}
+	.container {
+		width: 99%;
+	}
+	body {
+		width: 100%;
+		padding-left: 2px;
+	}
+	.header-img {
+		height: 70%;
+	}
+	.blogpost_post {
+		width: 100%;
+		padding: 5px;
+	}
+	.top-menu {
+		width: 40%;
 	}
 	.footer {
-		height: 120px;
-		display: grid;
+		height: 130px;
+	}
+	.blogpost_post-image {
+		width: 100%;
+		height: 160px;
+		object-fit: cover;
+	}
+	#author {
+		background-color: #908e8e;
+		text-align: center;
+		list-style-type: none;
+		height: 250px;
+	}
+	#img-author {
+		width: 70px;
+		height: 70px;
+		border-radius: 50px;
+	}
+	#text-style {
+		font-size: 14px;
 	}
 }
 
 
-/*tablet*/
+/*moto G4, Galaxy S5, Pixel 2, Pixel 2XL, iPhone 5/SE, iPhone 6/7/8/8 Plus/X, iPad, Surface Duo, Galaxy Fold*/
 
 @media (max-width: 901px) {
+	html {
+		width: 100%;
+	}
+	header {
+		width: 250%;
+	}
+	.container {
+		width: 99%;
+	}
 	body {
-		width: 70%;
+		width: 80%;
+		padding-left: 2px;
+		color: red;
+	}
+	.top-menu {
+		width: 40%;
+	}
+	.blogpost_post {
+		width: 100%;
+		padding: 5px;
 	}
 	.footer-home {
-		height: 120px;
-		display: grid;
+		height: 200px;
 	}
-	.footer {
-		height: 120px;
-		display: grid;
+	.blogpost_post-image {
+		width: 100%;
+		height: 80px;
+		object-fit: cover;
+	}
+	#img-author {
+		width: 70px;
+		height: 70px;
+		border-radius: 50px;
+	}
+	#text-style {
+		font-size: 14px;
 	}
 }
